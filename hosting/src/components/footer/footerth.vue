@@ -1,29 +1,52 @@
 <template>
   <footer class="footer">
     <div class="container has-text-centered">
-      <h1 class="title is-2">
-        ติดตามเราได้ที่
-      </h1>
-      <p class="subtitle">
-        <br>
-        <a href="https://facebook.com">Facebook</a><span class="tab"></span><a href="https://www.instagram.com">IG</a><span class="tab"></span><a href="https://line.me">Line</a>
+       <p class="subtitle is-6">
+        <strong>สร้างเว็บนี้ขึ้น ใน พิษณุโลก</strong> 💜💜💜<br><br>
+       โดยสมาชิกของกลุ่ม Next Gen Hotel
       </p>
-    </div>
-    <br>
-    <div class="a1 has-text-centered">
-      <p class="a3 has-text-left">
-      <img src="@/assets/logo-NU-2018.jpg" alt="pic" width="50" height="50">
-      ควบคุมกำกับ โดย อ.วินัย วงษ์ไทย
-      <br>
-      หน้าเว็บโรงแรมและการตลาดออนไลน์ ถูกจัดทำโดย สมาชิกกลุ่มนิสิตมหาวิทยาลัยนเรศวรในรายวิชาการโปรแกรมบนอินเทอร์เน็ต
-      </p>
-      <p class="a2 has-text-right">
-      โทร. +(66 5)583-1423|+(66 5)535-8972
-      <br>
-      เวลาเปิดทำการ(8:30-17:30 จันทร์ - เสาร์)
-      <br>
-      อีเมลล์:Sales@nextgenhotel.com
-      </p>
+      <nav class="breadcrumb is-centered has-bullet-separator" aria-label="breadcrumb">
+        <ul>
+          <li>
+            <a href="https://vuejs.org">Vue</a>
+          </li>
+          <li>
+            <a href="https://www.typescriptlang.org/">Typescript</a>
+          </li>
+          <li>
+            <a href="https://buefy.org">Buefy</a>
+          </li>
+          <li>
+            <a href="https://eslint.org">Eslint</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="level is-mobile">
+        <div class="level-item">
+          <figure class="image is-48x48 mx-1">
+            <a href="https://vuejs.org/"><img class="is-rounded" src="@/assets/vue.svg"></a>
+          </figure>
+           <figure class="image is-48x48 mx-1">
+            <a href="https://buefy.org"><img class="is-rounded" src="@/assets/buefy.png"></a>
+          </figure>
+          <figure class="image is-48x48 mx-1">
+            <a href="https://www.typescriptlang.org/"><img class="is-rounded" src="@/assets/typescript.svg"></a>
+          </figure>
+          <figure class="image is-48x48 mx-1">
+            <a href="https://eslint.org"><img class="is-rounded" src="@/assets/eslint.svg"></a>
+          </figure>
+          <figure class="image is-48x48 mx-1">
+            <a href="https://www.javascript.com"><img class="is-rounded" src="@/assets/js.png"></a>
+          </figure>
+          <figure class="image is-48x48 mx-1">
+            <a href="https://sass-lang.com/"><img class="is-rounded" src="@/assets/scss.png"></a>
+          </figure>
+          <figure class="image is-48x48 mx-1">
+            <a href="https://github.com/GodDuckBoy/NextGen-Hotel"><img class="is-rounded" src="@/assets/github.svg"></a>
+          </figure>
+        </div>
+      </nav>
     </div>
   </footer>
 </template>
@@ -33,24 +56,8 @@
 @import '../../variables';
 
 .footer {
-  background-color: #04AA6D;
-  color: white;
+  background-color: rgb(255, 255, 255);
+  border-top: 2px solid $gray-border;
 }
-.a1 {
-  background-color: #c695ee;
-  color: rgb(212, 28, 28);
-}
-.a2 {
-  background-color: #2e1f2e;
-  color: rgb(29, 177, 95);
-}
-.a3 {
-  background-color: #3e3d8f;
-  color: rgb(164, 202, 74);
-}
-.tab {
-  display: inline-block;
-  margin-left: 40px;
-  tab-size: 2;
-}
+
 </style>
