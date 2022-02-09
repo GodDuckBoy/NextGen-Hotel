@@ -1,0 +1,110 @@
+formborder {
+    margin: 100px auto;
+    display: table;
+    background-color: #ffffff;
+    padding: 1%;
+    padding-top: 1%;
+    border-style: ridge;
+    border-radius: 10px;
+    border-width: 3px;
+    padding: 20px 1px 20px 1px;
+    border-color: #ffffff;
+}
+headborder{
+    margin: 10px 100px 5px 100px;
+    display: block;
+    background-color: #ffffff;
+    padding: 1%;
+    padding-top: 1%;
+    border-style: ridge;
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 20px 1px 20px 1px;
+    border-color: #ffffff;	
+}
+subborder{
+    margin: 5px 100px 10px 100px;
+    display: block;
+    background-color: #ffffff;
+    border-style:ridge;
+    border-radius: 20px;
+    border-width: 2px;
+    padding: 20px 1px 20px 1px;
+    border-color: #ffffff;	
+}
+headtext{
+    color: #000000;
+    font-size: 120%;
+    font-weight: bolder;
+}
+h1{
+    color: #000000;
+    font-size: 120%;
+    font-weight: bolder;
+}
+suptext{
+    color: #888888;
+    font-size: 100%;
+    font-weight: bolder;
+}
+bottext{
+    color: #ffffff;
+    font-size: 100%;
+    font-weight: bolder;
+}
+.box{
+    margin: 5px 1px 1px 1px;
+    padding: 5px 5px 5px 15px;
+}
+.boxborder{
+    margin: 5px 100px 10px 100px;
+    padding: 5px 5px 5px 15px;
+    background-color: #ffffff;
+    border-style:ridge;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #ffffff;
+}
+.mt{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.mj{
+    padding: 0px 10px 0px 10px;
+    margin: 0px 0px 0px 50px;
+    width:105px;
+    height: 40px;  
+}
+.subbutton{
+    margin-top: 20px;
+    margin-left: 100px ;
+    margin-right: 100px;
+    margin-bottom: 1px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    display: block;
+    background-color: #ff8411;
+    border-color: #ffffff;	
+    
+}
+spacetext{
+    padding-left: 100px;
+}
+.border{
+    margin: 0px auto;
+    display: table;
+    background-color: #CDB79E;
+    padding: 1%;
+    padding-top: 1%;
+    border-style: ridge;
+    padding: 20px;
+    border-color: #000000;
+}
+.headtext{
+	font-size: 100%;
+	font-weight: bolder;
+}
