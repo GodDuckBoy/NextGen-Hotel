@@ -1,0 +1,73 @@
+<template>
+<div class="Dobule-Page">
+  <section class="title1 has-text-centered">
+    <div class="container"> <br> <br>
+      <img src="@/assets/quad.jpg" alt="quad">
+    </div>
+  </section> <br>
+  <section class="Quad">
+    <h1>Quad</h1> <br>
+    <div class="kok1">
+      <ui>
+      <li>
+        3 bedroom.
+      </li>
+      <li>
+        For 4 people.
+      </li>
+      <li>
+        Room area about 70 m² to 85 m².
+      </li>
+      <li>
+        Beautiful design view. Usable for resting and partying.
+      </li>
+    </ui>
+    </div>
+  </section>
+  <section class="RoomAm">
+    <br>
+  <h1>Room Amenities</h1> <br>
+  <div class="kok1">
+    <ui>
+    <li>
+      Flat screen TV and cable TV channels
+    </li>
+    <li>
+      Refrigerator/mini bar and hot water kettle
+    </li>
+    <li>
+      Free Wifi
+    </li>
+    <li>
+      Shower with shampoo, soap and hair dryer
+    </li>
+    <li>
+      Comfortable balcony with beautiful furniture
+    </li>
+    <li>
+      Air conditioner
+    </li>
+    <li>
+      A large sofa bed that can be converted into an extra bed.
+    </li>
+  </ui>
+  </div>
+  </section>
+  <br>
+  <section class="Notes">
+    <h2>Important Notes!!</h2> <br>
+    <div class="kok2">
+      <ui>
+      <li>
+        Inside the hotel, there is no way for wheelchairs. But there will be staff to help. in the case of an elderly person
+      </li>
+      <li>
+        Pets are not allowed to stay in the resort
+      </li> <br> <br>
+    </ui>
+    </div>
+  </section>
+</div>
+</template>
+<script lang="ts" src="./quad.ts" ></script>
+<style scoped lang="scss" src="./quad.scss"></style>
