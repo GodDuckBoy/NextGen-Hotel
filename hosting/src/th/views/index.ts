@@ -3,6 +3,7 @@ import AccountTH from './globals/account/account.vue'
 import LoginTH from './globals/account/account_login.vue'
 import RegisterTH from './globals/account/account_register.vue'
 import EditProfileTH from './globals/account/edit-profile/edit-profile.vue'
+import VIPTHReal from './globals/account/vip/vip.vue'
 import BookedTH from './globals/booked/booked.vue'
 import HomeTH from './globals/home/home.vue'
 import OwnersTH from './globals/owners/owners.vue'
@@ -29,5 +30,6 @@ export {
   RegisterTH,
   RoomsTH,
   SingleTH,
-  VIPTH
+  VIPTH,
+  VIPTHReal
 }

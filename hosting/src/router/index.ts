@@ -71,7 +71,7 @@ const routes: Array<RouteConfig> = [
   {
     path: '/th/account/vip',
     name: 'สิทธิพิเศษ',
-    component: PagesTH.VIPTH
+    component: PagesTH.VIPTHReal
   },
   {
     path: '/th',

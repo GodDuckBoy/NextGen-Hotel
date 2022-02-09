@@ -20,42 +20,44 @@
         </template>
     </b-navbar>
     <template>
-        <div class="vip-page">
-            <body>
-                <br><br><p style="font-size: 20px;" align="center">Register for VIP</p><br>
-                <form align="center">
-                    <p>
-                        <label>Special privileges for registered customers Receive discounts on bookings of up to 30%</label>
-                    </p>
-                    <p>
-                        <label>Including the right to reserve a room before anyone else. Special room availability will be reserved in advance for customers who apply.</label>
-                    </p><br>
-                    <p>
-                        <label>Packet to register</label><br>
-                        <input type="radio" name="vip" value="vip" align="center">1 month ( get a discount 5% )<br><br>
-                        <input type="radio" name="vip" value="vip" align="center">2 month ( get a discount 10% )<br><br>
-                        <input type="radio" name="vip" value="vip" align="center">3 month ( get a discount 15% )<br><br>
-                        <input type="radio" name="vip" value="vip" align="center">6 month ( get a discount 20% )<br><br>
-                        <input type="radio" name="vip" value="vip" align="center">1 year ( get a discount 30% )<br><br>
-                    </p><br><br>
-                    <p>
-                    <router-link :to="{ path: '/en/account' }">
-                    <input type="submit" value="Confirm for register">
-                    </router-link>
-                    &nbsp;&nbsp;
-                    <router-link :to="{ path: '/en/account' }">
-                    <input type="reset" value="Cancle for register">
-                    </router-link>
-                    </p>
-                </form>
-            </body>
+       <div class="container-xl px-4 mt-4">
+    <!-- Account page navigation-->
+    <nav class="nav nav-borders">
+        <p>VIP</p>
+    </nav>
+    <hr class="mt-0 mb-4">
+    <div class="row">
+        <div class="col-xl-8">
+            <!-- Account details card-->
+            <div class="card mb-4">
+                <div class="card-header">Register for VIP</div>
+                <div class="card-body">
+                    <form>
+                        <!-- Form Radio (VIP Menu)-->
+                        <section class="radio-section">
+                            <div class="radio-list">
+                            <div class="radio-item"><input name="radio" id="radio1" type="radio"><label for="radio1">1 month ( get a discount 5% )</label></div>
+                            <div class="radio-item"><input name="radio" id="radio2" type="radio"><label for="radio2">2 month ( get a discount 10% )</label></div>
+                            <div class="radio-item"><input name="radio" id="radio3" type="radio"><label for="radio3">3 month ( get a discount 15% )</label></div>
+                            <div class="radio-item"><input name="radio" id="radio4" type="radio"><label for="radio4">6 month ( get a discount 20% )</label></div>
+                            <div class="radio-item"><input name="radio" id="radio5" type="radio"><label for="radio5">1 year ( get a discount 30% )</label></div>
+                            </div>
+                        </section>
+                        <!-- Save changes button-->
+                        <button class="btn-1 btn-primary" type="submit">Confirm for register</button>
+                        <button class="btn-1 btn-primary" type="reset">Cancle for register</button>
+                    </form>
+                </div>
+            </div>
         </div>
+    </div>
+</div>
     </template>
     <breadcrumb-footer />
     </div>
 </template>
 <script lang="ts" src="./vip.ts"></script>
-<style scoped>
+<style scoped lang="scss" src="./vip.scss">
 .hotel-logo {
   display: block;
   margin-left: auto;
