@@ -13,9 +13,9 @@
     </p>
     <p><br>
     <label>Date : </label>
-    <input type="date" >
+    <input  placeholder="dd/mm/yyyy" >
     <label> - </label>
-    <input type="date">
+    <input  placeholder="dd/mm/yyyy">
     </p>
     <p><br>
     <label>floor : </label>
