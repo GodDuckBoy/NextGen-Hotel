@@ -1,14 +1,14 @@
 {
-  "name": "@weboop/hosting",
+  "name": "@next-gen-hotel/hosting",
   "version": "0.0.1",
   "private": true,
-  "description": "weboop frontend website",
+  "description": "NextGen-Hotel frontend website",
   "repository": {
     "type": "git",
-    "url": "https://github.com/KanapongAiamtip/weboop.git",
+    "url": "https://github.com/GodDuckBoy/NextGen-Hotel.git",
     "directory": "hosting"
   },
-  "author": "KanapongAiamtip",
+  "author": "Nutdanai Wongveeradachakajohn",
   "license": "MIT",
   "scripts": {
     "serve": "node egg.js && vue-cli-service serve",
@@ -18,7 +18,6 @@
     "clean": "npx rimraf dist && npx rimraf node_modules"
   },
   "dependencies": {
-    "@fina/common": "^0.0.1",
     "@mdi/font": "^5.9.55",
     "axios": "^0.21.1",
     "buefy": "^0.9.8",
